@@ -1,0 +1,30 @@
+﻿@import "../styles/tokens.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-blue-100 selection:text-blue-900 dark:selection:bg-blue-900 dark:selection:text-blue-100;
+  }
+}
+
+@layer utilities {
+  /* High-density typography and card tokens */
+  .text-portal-title {
+    @apply text-base sm:text-lg font-bold tracking-tight text-slate-900 dark:text-white leading-snug;
+  }
+  .text-portal-subtitle {
+    @apply text-xs sm:text-sm text-slate-600 dark:text-slate-400 font-medium;
+  }
+  .text-portal-meta {
+    @apply text-xs text-slate-500 dark:text-slate-400 font-normal;
+  }
+  .portal-pill {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium border transition-colors;
+  }
+}

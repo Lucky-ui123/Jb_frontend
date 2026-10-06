@@ -1,0 +1,21 @@
+﻿/* ==========================================================================
+   JB JobPortal — Spacing & Shape Tokens
+   Radii, borders, and box shadows.
+   ========================================================================== */
+
+:root {
+  --radius: 0.5rem;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+
+  /* Elevation & Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-card: 0 1px 3px 0 rgba(15, 23, 42, 0.06), 0 1px 2px -1px rgba(15, 23, 42, 0.04);
+  --shadow-card-hover: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+  --shadow-dropdown: 0 10px 38px -10px rgba(22, 23, 24, 0.25), 0 10px 20px -15px rgba(22, 23, 24, 0.15);
+  --shadow-header: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 4px 12px 0 rgba(0, 0, 0, 0.02);
+}

@@ -1,0 +1,95 @@
+﻿/* ==========================================================================
+   JB JobPortal — Color Tokens
+   Defines HSL color tokens for Light and Dark themes.
+   ========================================================================== */
+
+:root {
+  /* Core Base Colors */
+  --background: 210 40% 98%;
+  --foreground: 222 47% 11%;
+
+  /* Card & Surface */
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  /* Popover & Overlays */
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+
+  /* Primary Brand (JobPortal Blue) */
+  --primary: 221.2 83.2% 53.3%;
+  --primary-foreground: 210 40% 98%;
+
+  /* Secondary Neutral */
+  --secondary: 214.3 31.8% 94%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+
+  /* Muted Text & Backgrounds */
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+
+  /* Accent Highlight */
+  --accent: 214 95% 93%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+
+  /* Destructive / Error */
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+
+  /* Borders & Form Inputs */
+  --border: 214.3 31.8% 89.4%;
+  --input: 214.3 31.8% 89.4%;
+  --ring: 221.2 83.2% 53.3%;
+
+  /* Brand Palette (Tailwind reference) */
+  --brand-50: #eff6ff;
+  --brand-100: #dbeafe;
+  --brand-200: #bfdbfe;
+  --brand-300: #93c5fd;
+  --brand-400: #60a5fa;
+  --brand-500: #3b82f6;
+  --brand-600: #2563eb;
+  --brand-700: #1d4ed8;
+  --brand-800: #1e40af;
+  --brand-900: #1e3a8a;
+  --brand-950: #172554;
+}
+
+.dark {
+  /* Core Base Colors */
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+
+  /* Card & Surface */
+  --card: 222.2 84% 6.5%;
+  --card-foreground: 210 40% 98%;
+
+  /* Popover & Overlays */
+  --popover: 222.2 84% 6.5%;
+  --popover-foreground: 210 40% 98%;
+
+  /* Primary Brand */
+  --primary: 217.2 91.2% 59.8%;
+  --primary-foreground: 222.2 47.4% 11.2%;
+
+  /* Secondary Neutral */
+  --secondary: 217.2 32.6% 17.5%;
+  --secondary-foreground: 210 40% 98%;
+
+  /* Muted Text & Backgrounds */
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+
+  /* Accent Highlight */
+  --accent: 217.2 32.6% 17.5%;
+  --accent-foreground: 210 40% 98%;
+
+  /* Destructive / Error */
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+
+  /* Borders & Form Inputs */
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 224.3 76.3% 48%;
+}
